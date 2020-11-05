@@ -8,3 +8,5 @@ $hello = new MyClass(array(
 $hello->name ="MyName";
 $hello->name;
 
+isset($hello->name);
+unset($hello->name);

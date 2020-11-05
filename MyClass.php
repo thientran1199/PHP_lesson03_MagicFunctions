@@ -15,5 +15,13 @@ class MyClass{
     {
         echo "thuoc tinh vua goi  $key ";
     }
+    public function __isset($name)
+    {
+        echo " thuoc tinh  $name ";
+    }
+    public function __unset($name)
+    {
+        echo " thuoc tinh  $name ";
+    }
 
 }
